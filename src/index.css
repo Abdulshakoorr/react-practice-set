@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    h1 {
+      @apply text-2xl;
+    }
+    h2 {
+      @apply text-xl font-medium;
+    }
+    p{
+        @apply text-sm
+    }
+    input{
+        @apply text-sm border-hidden focus:outline-none shadow-md m-2 
+    }
+    button{
+        @apply text-sm px-6 py-3 cursor-pointer shadow-md mr-2 rounded hover:bg-black hover:text-orange-200 transition-all duration-200 ease-linear hover:shadow-2xl hover:shadow-teal-200
+    }
+  }
